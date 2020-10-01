@@ -1,0 +1,1116 @@
+
+/*  estilo03.css : Definimos el estilo de todos los elementos HTML usados en la práctica */
+
+/* ------------------------------------------------------------------ */
+/* ---------------------- ESTILO DEL CONTENIDO ---------------------- */
+/* ------------------------------------------------------------------ */
+
+/* Cabecera de la página */
+#cabecera 
+{
+    height: 240px;
+}
+
+/* Necesario para centrar la página */
+#contenedor 
+{
+    background-color: #FFFFFF; /*el fondo del contenedor es blanco*/
+    clear: both;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 1000px;
+}
+
+/* Colocación del texto, formato, etc... */
+#cuerpo 
+{
+    position:absolute;
+    height: 1119px;
+    width: 729px;
+    margin-left: 190px;
+    top:286px;
+    padding:25px; /*para que el texto no choque con el borde*/
+    font-size:16px;
+}
+
+/* Contenido del cuerpo */
+#cuerpo p 
+{
+    font-weight: normal;
+    padding:0px; /*para que el texto no choque con el borde*/
+}
+
+/* Estilo del navegador lateral */
+#lateral
+{
+    padding-top:30px;
+    position:relative;
+    bottom:49px;
+    clear: both;
+    float: left;
+    width: 200px;
+    height: 509px;
+    font-size: 15px;
+    text-align: center;
+    color:white;
+    background-color:#990000  ;
+}
+
+/* Botón del iniciar sesión del lateral */
+#boton_iniciar_sesion
+{
+    position:relative;
+    height:200px;
+    width:160px;
+    top:10px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#boton_iniciar_sesion:hover
+{
+    background: orange;
+    color: white;
+    box-shadow: inset 0 0 0 black;
+}
+
+/* Botón del registro del lateral */
+#boton_registro
+{
+    position:relative;
+    top:70px;
+    height:200px;
+    width:160px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#boton_registro:hover
+{
+    background-color:limegreen;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+/* Contenido del navegador lateral */
+#lateral a
+{
+    text-align: center;
+    text-decoration: none; 
+    color:white;  
+}
+
+/* Botón del iniciar sesión del lateral */
+#navegador
+{
+    position:relative;
+    left:200px;
+    bottom:1px;
+
+}
+
+#navegador ul
+{
+    padding: 0;
+}
+
+#navegador li 
+{
+    display: inline;
+}
+
+#navegador li a 
+{
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:21px;
+    text-decoration: none;
+    float:center;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left: 42.5px;
+    padding-right:42.2px;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+}
+
+
+#navegador li a:hover 
+{
+    background-color: red;
+}
+
+
+#cuerpo
+{
+    float: right;
+    width: 699px;    /*ajusto el ancho para que entre el id lateral*/
+    height: 454px;
+    background-color:indianred;
+    margin-left:200px;
+    margin-top:14px;
+} 
+
+#tituloTexto
+{
+    position:relative;
+    bottom:20px;        
+    text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+    font-size:21px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#texto
+{
+    position:relative;
+    top:50px;
+    color:white;
+    font-family: fantasy ;
+    font-size:20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#pie-pagina
+{
+    clear:both;
+    color:#0000FF;
+    font-size: 12px;  /*para que la letra del pie tenga un tamaño pequeño*/
+    color:white;
+    background-color: darkred;
+    text-transform: full-width;
+    text-align : center;   /*centramos el texto del pie*/
+    position:relative;
+    bottom:47px;
+    width:950px;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* -------------- ESTILO DEL INICIO_SESIÓN WEB ---------------------- */
+/* ------------------------------------------------------------------ */
+
+
+#titulo_inicio
+{
+    color:aliceblue;
+    text-align: center;
+    font-size:40px;
+}
+
+#iniciarSesion
+{
+    border: 0px; /*no metemos borde*/
+    padding: 0px;   
+    margin-left: 220px;
+    margin-bottom: 50px;
+    font-size: 20px;  /*para que la letra del pie tenga un tamaño pequeño*/
+    color:white;
+    text-align: center;
+}
+
+
+#caja_texto
+{
+    width: 250px;
+}
+
+
+#botones
+{
+    border: 0px; /*no metemos borde*/
+    margin-left: 270px;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------- ESTILO DEL REGISTRO WEB ---------------------- */
+/* ------------------------------------------------------------------ */
+
+
+
+#registrarse
+{
+    border:0px;
+    padding-top:0;
+    text-align: center;
+    font-size: 15px;  /*para que la letra del pie tenga un tamaño pequeño*/
+    color:white;
+}
+
+.caja_texto
+{
+    width: 180px;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* ----------------- ESTILO PARA CREAR RECURSO ---------------------- */
+/* ------------------------------------------------------------------ */
+
+#formulario
+{
+    position:relative;
+    bottom:20px;
+}
+
+#tituloTextoCrearCurso
+{
+    position:relative;
+    bottom:15px;
+    color:aliceblue;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* --------------- ESTILO DE TABLA DE RECURSOS ---------------------- */
+/* ------------------------------------------------------------------ */
+
+#cabecera_recursos
+{
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:17px;
+    text-decoration: none;
+    float:center;
+    height:20px;
+    background-color:blue ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    text-align: center;
+}
+
+
+
+#tablaCuerpo td
+{
+    border-style: outset;
+    border-color: black;
+    border-width: 2px;
+}
+
+#tablaCuerpo
+{
+    font-family:fantasy;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    color:black;
+    position:relative;
+    bottom:20px;
+}
+
+/* ------------------------------------------------------------------ */
+/* ------------- ESTILO DE TABLA PROFESIONALES ---------------------- */
+/* ------------------------------------------------------------------ */
+
+#cabecera_profesionales
+{
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:17px;
+    text-decoration: none;
+    float:center;
+    height:20px;
+    background-color:blue ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    text-align: center;
+}
+
+#cabecera_usuarios
+{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:17px;
+    text-decoration: none;
+    float:center;
+    height:70px;
+    background-color:blueviolet ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* ---------------------- NAVEGADOR DEL CLIENTE --------------------- */
+/* ------------------------------------------------------------------ */
+
+#cerrar_sesion_cliente
+{
+    position:relative;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:35px;
+    padding-right:35px;
+    top:10px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer
+}
+
+#cerrar_sesion_cliente:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+#titulo_recursos_cliente
+{
+    position:relative;
+    top:10px;
+    color:#990000 ;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+    font-size:21px;
+    font-family: sans-serif;
+}
+
+#gestionar_recursos_cliente
+{
+    position:relative;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:20px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#gestionar_recursos_cliente:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+#recursos_en_cola_cliente
+{
+    position:relative;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:25px;
+    padding-right:25px;
+    top:60px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#recursos_en_cola_cliente:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+#titulo_sistema_cliente
+{
+    padding-top:55px;
+    color:#990000 ;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size:21px;
+    font-family: sans-serif;
+}
+
+#editar_cliente
+{
+    position:relative;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:10px;
+    padding-right:10px;
+    top:5px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#editar_cliente:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+#baja_cliente
+{
+    position:relative;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:39px;
+    padding-right:38px;
+    top:70px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#baja_cliente:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+/* ------------------------------------------------------------------ */
+/* ------------------ NAVEGADOR DEL PROFESIONAL --------------------- */
+/* ------------------------------------------------------------------ */
+
+
+#cerrar_sesion_profesional
+{
+    position:relative;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:35px;
+    padding-right:35px;
+    top:10px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer
+}
+
+#cerrar_sesion_profesional:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+#titulo_recursos_profesional
+{
+    padding-top:10px;
+    color:#990000 ;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+    font-size:21px;
+    font-family: sans-serif;
+}
+
+
+#crear_recurso_profesional
+{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:39px;
+    padding-right:38px;
+    top:1px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#crear_recurso_profesional:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+#modificar_recurso_profesional
+{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:28px;
+    padding-right:28px;
+    top:22px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#modificar_recurso_profesional:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+#baja_recurso_profesional
+{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:22px;
+    padding-right:22px;
+    top:44px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#baja_recurso_profesional:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+#titulo_clientes_profesional
+{
+    padding-top:30px;
+    color:#990000 ;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+    font-size:21px;
+    font-family: sans-serif;
+}
+
+#atender_clientes_profesional
+{
+    position:relative;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:32px;
+    padding-right:32px;
+    top:110px;
+    text-decoration: none;
+    float:center;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+
+#atender_clientes_profesional:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+#titulo_sistema_profesional
+{
+    padding-top:140px;
+    color:#990000 ;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+    font-size:21px;
+    font-family: sans-serif;
+}
+
+#editar_profesional
+{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    bottom:30px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#editar_profesional:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------ NAVEGADOR DEL ADMINISTRADOR ------------------- */
+/* ------------------------------------------------------------------ */
+
+
+#cerrar_sesion_administrador
+{
+    position:relative;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:35px;
+    padding-right:35px;
+    top:10px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer
+}
+
+#cerrar_sesion_administrador:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+#titulo_recursos_administrador
+{
+    position:relative;
+    bottom:14px;
+    color:#990000 ;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size:21px;
+    font-family: sans-serif;
+}
+
+#crear_recurso_admin
+{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:25px;
+    padding-right:25px;
+    bottom:40px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#crear_recurso_admin:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+#baja_recurso_admin
+{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:8px;
+    padding-right:8px;
+    bottom:49px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#baja_recurso_admin:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+#modificar_recurso_admin
+{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
+    bottom:59px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#modificar_recurso_admin:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+#titulo_clientes_administrador
+{
+    position:relative;
+    bottom:80px;
+    color:#990000 ;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+    font-size:21px;
+    font-family: sans-serif;
+
+}
+
+#crear_usuario_admin
+{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:25px;
+    padding-right:25px;
+    bottom:100px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#crear_usuario_admin:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+#baja_usuario_admin
+{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:8px;
+    padding-right:8px;
+    bottom:110px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#baja_usuario_admin:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+#modificar_usuario_admin
+{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
+    bottom:120px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#modificar_usuario_admin:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+
+#titulo_sistema_administrador
+{
+    position:relative;
+    bottom:200px;
+    color:#990000 ;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+    font-size:21px;
+    font-family: sans-serif;
+}
+
+#editar_administrador
+{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    bottom:240px;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    font-family:Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:center;
+    background-color:#990000 ;
+    color: #fff;
+    border-style: groove; border-width: 3px;
+    border-color: #990000 ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+#editar_administrador:hover
+{
+    background: blue;
+    color: ivory;
+    box-shadow: inset 0 0 0 black;
+}
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* --------- DARSE DE ALTA POR UN CLIENTE EN UN RECURSO ------------- */
+/* ------------------------------------------------------------------ */
+
+
+#tituloTexto_dar_alta_recurso_cliente
+{
+    position:relative;
+    top:13px;
+    left:2px;
+    font-size:15px;
+    color:aliceblue;    
+}
+
+
+#formulario_darse_alta_recurso_cliente
+{
+    color:white;
+    right:20px;
+    position:relative; 
+    height:100px;
+    width:100px;
+    bottom:70px;
+}
+
+#botones_dar_alta_recurso_cliente
+{
+    
+    border:0px;
+    position:relative;
+    width:100px;
+    bottom:80px;
+    left:210px;
+}
+
+/* ------------------------------------------------------------------ */
+/* --------- DARSE DE BAJA POR UN CLIENTE EN UN RECURSO ------------- */
+/* ------------------------------------------------------------------ */
+
+
+
+#tituloTexto_dar_baja_recurso_cliente
+{
+    position:relative;
+    top:13px;
+    left:130px;
+    font-size:15px;
+    color:aliceblue;
+}
+
+
+#formulario_darse_baja_recurso_cliente
+{
+    color:white;
+    position:relative; 
+    left:500px;
+    height:100px;
+    width:100px;
+    bottom:125px;
+}
+
+#botones_dar_baja_recurso_cliente
+{
+    border:0px;
+    position:relative;
+    width:100px;
+    bottom:80px;
+    right:120px;
+}
